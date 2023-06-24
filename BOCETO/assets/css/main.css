@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgb(60, 35, 35);
+		color: rgb(0, 0, 0);
 		font-family: sans-serif;
 		font-size: 15pt;
 		font-weight: bold;
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #000000c9;
 		font-weight: bold;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -595,7 +595,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #ffffff;
+			background: #555151;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2156,7 +2156,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #ffffff;
+		color: #000000; 
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3085,7 +3085,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(255, 255, 255, 0.25);
+			background: rgba(255, 255, 255, 0.5);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3137,12 +3137,12 @@ input, select, textarea {
 		}
 
 		.spotlight.right .content {
-			border-left-width: 0.35em;
+			border-left-width: 0.35em; 
 			right: 0;
 		}
 
 		.spotlight.style1 .content {
-			border-color: #388a30;
+			border-color: #f1cd09;
 		}
 
 		.spotlight.style2 .content {
@@ -3150,7 +3150,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style3 .content {
-			border-color: #3c2323;
+			border-color: #f1cd09;
 		}
 
 		.spotlight.inactive .content {
@@ -3434,7 +3434,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #388a30c9;
 					}
 
 					#header nav ul li > ul {
@@ -3475,10 +3475,12 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");;
+			/*
+			background-image: -moz-linear-gradient(top, rgba(251, 255, 0, 0.301), rgba(251, 255, 0, 0.30)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(251, 255, 0, 0.30), rgba(251, 255, 0, 0.30)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");;
+			*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -3678,7 +3680,7 @@ input, select, textarea {
 				}
 
 				.spotlight .content {
-					background-color: #1c1d26;
+					background-color: #388a30c9; 
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
@@ -3891,7 +3893,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #ffffff;
+				background: #ffffff; 
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -3993,7 +3995,7 @@ input, select, textarea {
 					}
 
 					#navPanel .link.depth-0 {
-						color: #ffffff;
+						color: #000000;
 						font-weight: 300;
 					}
 
