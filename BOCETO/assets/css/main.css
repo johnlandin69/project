@@ -1423,7 +1423,7 @@ input, select, textarea {
 						}
 
 		}
-
+		
 		@media screen and (max-width: 980px) {
 
 			.row {
@@ -3154,6 +3154,7 @@ input, select, textarea {
 		.spotlight.right .content {
 			border-left-width: 0.35em;
 			right: 0;
+			
 		}
 
 		.spotlight.style1 .content {
@@ -3414,6 +3415,10 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 		}
+		#header h1 a {
+			font-size: 200%;
+			text-shadow: 2px 2px 2px rgba(102, 96, 96, 0.582);
+		}
 
 		#header nav {
 			color: var(--darkgreen-color);
@@ -3512,7 +3517,7 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: right;
+			text-align: center;
 			vertical-align: middle;
 			z-index: 1;
 		}
@@ -3674,7 +3679,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 930px) {
 
 		/* Basic */
 
@@ -3697,6 +3702,7 @@ input, select, textarea {
 				}
 
 				.spotlight .content {
+					justify-content: center;
 					background-color: var(--body-color);
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
@@ -3705,6 +3711,7 @@ input, select, textarea {
 					padding: 4.5em 2.5em 2.5em 2.5em !important;
 					position: relative;
 					right: auto !important;
+					align-items: center;
 					text-align: center;
 					top: auto !important;
 					width: 100% !important;
@@ -3752,6 +3759,7 @@ input, select, textarea {
 						display: block;
 						margin: 0 0 2em 0;
 						text-align: center;
+						justify-content: center;
 					}
 
 					#banner .content .image {
@@ -3772,7 +3780,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 930px) {
 
 		/* Basic */
 
