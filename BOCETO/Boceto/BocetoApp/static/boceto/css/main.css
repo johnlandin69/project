@@ -1,6 +1,8 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -3075,7 +3077,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			background-image: url("../images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -4140,3 +4142,52 @@ input, select, textarea {
 					}
 
 	}
+	
+
+	  .img-fluid {
+		transition: transform 0.3s ease-in-out;
+		border-radius: 30px;
+		padding: 20px;
+	  }
+	  .img-fluid {
+		max-width: 100%;
+		height: auto;
+	  }
+	  .img-fluid {
+		max-width: 100%;
+		height: auto;
+	  }
+	  img {
+		vertical-align: middle;
+		border-style: none;
+	  }
+
+	  .conta .row {
+		display: flex;
+		flex-wrap: wrap;
+	  }
+	  
+	  .conta .col-sm-4 {
+		flex-basis: 33.33%;
+		max-width: 33.33%;
+		padding: 0 10px;
+	  }
+	  
+	  @media (max-width: 768px) {
+		.conta .col-sm-4 {
+		  flex-basis: 50%;
+		  max-width: 50%;
+		}
+	  }
+	  .image-box {
+		position: relative;
+		overflow: hidden;
+	  }
+	  
+	  .image-box img {
+		transition: transform 0.3s ease;
+	  }
+	  
+	  .image-box:hover img {
+		transform: scale(1.1);
+	  }
