@@ -23,7 +23,7 @@
 			<nav id="nav">
 				<ul>
 					<li><a href="{% url 'index' %}">Inicio</a></li>
-					<li><a href="#">Nosotros</a></li>
+					<li><a href="{% url 'nosotros' %}">Nosotros</a></li>
 					<li><a href="#">Colaboradores</a></li>
 					<li><a href="#">Labor Social</a></li>
 					<li><a href="#">Noticias</a></li>
@@ -36,7 +36,9 @@
 				</ul>
 			</nav>
 		</header>
+		{% block content %}
 
+		{% endblock %}
 		<!-- Banner -->
 		<section id="banner">
 			<div class="content">
@@ -125,7 +127,6 @@
 			<a href="#four" class="goto-next scrolly">Next</a>
 		</section>
 
-	
 				<!-- Four -->
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
@@ -216,9 +217,7 @@
 			</section>
 
 
-			{% block content %}
-
-			{% endblock %}
+			
 
 			<!-- Footer -->
 			<footer id="footer">
