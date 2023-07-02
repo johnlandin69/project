@@ -4140,3 +4140,46 @@ input, select, textarea {
 					}
 
 	}
+
+	.img-fluid {
+		transition: transform 0.3s ease-in-out;
+		border-radius: 30px;
+		padding: 20px;
+		max-width: 100%;
+		height: auto;
+	}
+
+	img {
+		vertical-align: middle;
+		border-style: none;
+	}
+
+	.conta .row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	  
+	.conta .col-sm-4 {
+		flex-basis: 33.33%;
+		max-width: 33.33%;
+		padding: 0 10px;
+	}
+	  
+	@media (max-width: 768px) {
+		.conta .col-sm-4 {
+		  flex-basis: 50%;
+		  max-width: 50%;
+		}
+	}
+	.image-box {
+		position: relative;
+		overflow: hidden;
+	}
+	  
+	.image-box img {
+		transition: transform 0.3s ease;
+	}
+	  
+	.image-box:hover img {
+		transform: scale(1.1);
+	}
