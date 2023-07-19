@@ -1,8 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-
-
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -3077,7 +3075,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("../images/overlay.png");
+			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3478,10 +3476,10 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+	#banner { 
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -4142,52 +4140,46 @@ input, select, textarea {
 					}
 
 	}
-	
 
-	  .img-fluid {
+	.img-fluid {
 		transition: transform 0.3s ease-in-out;
 		border-radius: 30px;
 		padding: 20px;
-	  }
-	  .img-fluid {
 		max-width: 100%;
 		height: auto;
-	  }
-	  .img-fluid {
-		max-width: 100%;
-		height: auto;
-	  }
-	  img {
+	}
+
+	img {
 		vertical-align: middle;
 		border-style: none;
-	  }
+	}
 
-	  .conta .row {
+	.conta .row {
 		display: flex;
 		flex-wrap: wrap;
-	  }
+	}
 	  
-	  .conta .col-sm-4 {
+	.conta .col-sm-4 {
 		flex-basis: 33.33%;
 		max-width: 33.33%;
 		padding: 0 10px;
-	  }
+	}
 	  
-	  @media (max-width: 768px) {
+	@media (max-width: 768px) {
 		.conta .col-sm-4 {
 		  flex-basis: 50%;
 		  max-width: 50%;
 		}
-	  }
-	  .image-box {
+	}
+	.image-box {
 		position: relative;
 		overflow: hidden;
-	  }
+	}
 	  
-	  .image-box img {
+	.image-box img {
 		transition: transform 0.3s ease;
-	  }
+	}
 	  
-	  .image-box:hover img {
+	.image-box:hover img {
 		transform: scale(1.1);
-	  }
+	}
