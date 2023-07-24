@@ -127,8 +127,8 @@ EMAIL_HOST="smtp.gmail.com"
 EMAIL_USE_TLS= True
 "este es el puerto q usa tls"
 EMAIL_PORT=587
-EMAIL_HOST_USER=""
-EMAIL_HOST_PASSWORD="bhorwmhldwxiwxiw"
+EMAIL_HOST_USER="regaloyt334@gmail.com"
+EMAIL_HOST_PASSWORD="dcwwvxklrlpmhors"
 
 
 # Default primary key field type
