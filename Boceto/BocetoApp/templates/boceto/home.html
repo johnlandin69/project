@@ -150,22 +150,27 @@
         </div>
     </section>
 
-    <!-- Five -->
-    <section id="five" class="wrapper style2 special fade">
-        <div class="container">
-            <header>
-                <h2>Contáctanos</h2>
-                <p>No nos escribas, nosotros te escribiremos</p>
-            </header>
-            <form method="post" action="#" class="cta">
-                <div class="row gtr-uniform gtr-50">
-                    <div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
-                            placeholder="Escribe tu correo electrónico" /></div>
-                    <div class="col-4 col-12-xsmall"><input type="submit" value="Enviar" class="fit primary" />
-                    </div>
+   <!-- contactanos -->
+<section id="five" class="wrapper style2 special fade">
+    <div class="container">
+        <header>
+            <h2>Contáctanos</h2>
+            <p>No nos escribas, nosotros te escribiremos</p>
+        </header>
+        {% if enviado_correctamente %}
+            <p>Correo enviado correctamente.</p>
+        {% endif %}
+        <form  method="post" action="{% url 'enviar_correo' %}" class="cta">
+            <div class="row gtr-uniform gtr-50">
+                {% csrf_token %}
+                <div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
+                        placeholder="Escribe tu correo electrónico" /></div>
+                <div class="col-4 col-12-xsmall"><input type="submit" value="Enviar" class="fit primary" />
                 </div>
-            </form>
-        </div>
-    </section>
+            </div>
+        </form>
+    </div>
+</section>
+
 </html>
 {% endblock %}

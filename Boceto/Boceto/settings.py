@@ -119,6 +119,18 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+
+"agregar estas dos lineas para trabajar con el envio de correos"
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST="smtp.gmail.com"
+"esta es la configuracion que se usara para enviar el correo"
+EMAIL_USE_TLS= True
+"este es el puerto q usa tls"
+EMAIL_PORT=587
+EMAIL_HOST_USER="rojassebas765@gmail.com"
+EMAIL_HOST_PASSWORD="bhorwmhldwxiwxiw"
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
