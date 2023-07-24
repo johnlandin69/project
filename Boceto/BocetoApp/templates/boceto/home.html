@@ -2,6 +2,8 @@
 {% load static %} 
 {% block content %}
 <html lang="es">
+    <link rel="stylesheet" href="{% static 'boceto/css/main.css' %}" />
+		<link rel="icon" href="{% static 'boceto/images/Favicon.ico' %}" type="image/x-icon">
     <!-- Banner -->
     <section id="banner">
         <div class="content">
@@ -154,11 +156,13 @@
 <section id="five" class="wrapper style2 special fade">
     <div class="container">
         <header>
-            <h2>Contáctanos</h2>
+            <h2>Contáctanos  </h2>
             <p>No nos escribas, nosotros te escribiremos</p>
         </header>
+        <!--aqui ve si es true el valor muestra este mensaje-->
         {% if enviado_correctamente %}
-            <p>Correo enviado correctamente.</p>
+            <p style="color: white;font-size: larger;">Correo enviado correctamente. 
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#11c02e}</style><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> </p>
         {% endif %}
         <form  method="post" action="{% url 'enviar_correo' %}" class="cta">
             <div class="row gtr-uniform gtr-50">
